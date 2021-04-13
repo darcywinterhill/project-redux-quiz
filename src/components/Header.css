@@ -1,0 +1,40 @@
+@font-face {font-family: "Gabriel Weiss' Friends Font"; src: url("//db.onlinewebfonts.com/t/0b7d8a39b62b28cf0cfe3cea90b8baa3.eot"); src: url("//db.onlinewebfonts.com/t/0b7d8a39b62b28cf0cfe3cea90b8baa3.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0b7d8a39b62b28cf0cfe3cea90b8baa3.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0b7d8a39b62b28cf0cfe3cea90b8baa3.woff") format("woff"), url("//db.onlinewebfonts.com/t/0b7d8a39b62b28cf0cfe3cea90b8baa3.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0b7d8a39b62b28cf0cfe3cea90b8baa3.svg#Gabriel Weiss' Friends Font") format("svg"); }
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-text {
+  font-family: "Gabriel Weiss' Friends Font";
+  font-size: 40px;
+  margin-top: 60px;
+}
+
+.header-text span {
+  width: 6px;
+  height: 7px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 4px 8px;
+}
+
+.red-dot {
+  background-color: #DE3B30;
+}
+
+.blue-dot {
+  background-color: #44ADEE;
+}
+
+.yellow-dot {
+  background-color: #F7BE50;
+}
+
+@media (max-width: 767px) {
+  .header-text {
+    font-size: 28px;
+    margin-top: 25px;
+  }
+}

@@ -1,9 +1,11 @@
 import { createSlice } from '@reduxjs/toolkit'
 
-// Change these to your own questions!
 const questions = [
-  { id: 1, questionText: 'Who set the Olympic record for the 100m dash in 2012?', options: ['Usain Bolt', 'Justin Gatlin', 'Tyson Gay', 'Asafa Powell'], correctAnswerIndex: 0 },
-  { id: 2, questionText: 'When was Michael Phelps last named male World Swimmer of the Year?', options: ['2012', '2014', '2016', '2018'], correctAnswerIndex: 2 }
+  { id: 1, questionText: "What hangs on Monica's purple door?", options: ['A key hook', 'A coat hook', 'A yellow picture frame', 'A cap'], correctAnswerIndex: 2 },
+  { id: 2, questionText: "What is the name of Rachel's hairless cat?", options: ['Baldy', 'Mrs. Whiskerson', 'Sid', 'Felix'], correctAnswerIndex: 1 },
+  { id: 3, questionText: "What is the name of Phoebe's alter-ego?", options: ['Phoebe Neeby', 'Monica Bing', 'Regina Falange', 'Elaine Benes'], correctAnswerIndex: 2 },
+  { id: 4, questionText: "Who is Chandler and Joey's TV magazine addressed to?", options: ['Miss Chanandler Bong', 'Mrs Chanel Beng', 'Ms Chandelier Bang', 'Rachel Greep'], correctAnswerIndex: 0 },
+  { id: 5, questionText: "What kind of uniform does Joey wear to Monica and Chandler's wedding?", options: ['Chef', 'Soldier', 'Fire fighter', 'A baseball player'], correctAnswerIndex: 1 }
 ]
 
 const initialState = {

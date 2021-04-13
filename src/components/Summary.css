@@ -1,0 +1,49 @@
+@font-face {font-family: "Gabriel Weiss' Friends Font"; src: url("//db.onlinewebfonts.com/t/0b7d8a39b62b28cf0cfe3cea90b8baa3.eot"); src: url("//db.onlinewebfonts.com/t/0b7d8a39b62b28cf0cfe3cea90b8baa3.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0b7d8a39b62b28cf0cfe3cea90b8baa3.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0b7d8a39b62b28cf0cfe3cea90b8baa3.woff") format("woff"), url("//db.onlinewebfonts.com/t/0b7d8a39b62b28cf0cfe3cea90b8baa3.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0b7d8a39b62b28cf0cfe3cea90b8baa3.svg#Gabriel Weiss' Friends Font") format("svg"); }
+
+.summary-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.summary {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.restart-button {
+  display: block;
+  background-color: #44ADEE;
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 50px;
+  width: 200px;
+  font-size: 17px;
+  outline: none;
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+
+.restart-button:hover {
+  background-color: #368abe;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  font-family: "Gabriel Weiss' Friends Font";
+  font-size: 26px;
+  text-align: center;
+}
+
+.summary p {
+  text-align: center;
+  font-family: "Gabriel Weiss' Friends Font";
+  font-size: 20px;
+  margin: 0;
+  padding: 0 5px;
+}
