@@ -1,3 +1,5 @@
+Project week 14 of Technigo bootcamp
+
 # Redux quiz group project
 
 Replace this readme with your own information about your project.
